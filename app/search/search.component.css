@@ -1,0 +1,42 @@
+
+
+
+button
+{
+    width:60%;
+    margin-left: 55px;;
+    height:40px ; 
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+button:hover
+{
+    color: black;
+    background-color: blanchedalmond;
+}
+input
+{
+    border: 1px solid black;
+    outline-color: blue;
+    width: 80%;
+    border-radius: 50px;
+}
+h2 {
+    color: blue;
+}
+.reg-form-loc {
+    border:blue 5px solid;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    text-align: left;
+    padding: 3%;
+}
+label{
+    font-style: italic;
+    font-size: larger;
+}

@@ -1,0 +1,47 @@
+.ticket {
+    border: blue 7px solid;
+    margin-top: 10%;
+    padding: 2%;
+    background-color: white;
+    width: 60%;
+    position: relative;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .navbar-brand {
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  table {
+    border: 3px solid blue;
+    width: 60%;
+  }
+  
+  td {
+    padding: 2%;
+  }
+  
+  .ticket-image {
+    position: absolute;
+    width: 20%;
+    right: 22%;
+    bottom: 37.9%;;
+  }
+  button
+  {
+    background-color: #0014FF;
+    color: white;
+    width: 250px;
+    margin-top: 40px;
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 350px;
+  
+  }

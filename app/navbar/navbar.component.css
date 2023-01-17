@@ -1,0 +1,82 @@
+
+  body{
+    background: black;
+
+  }
+  .navbar-brand {
+    font-size: 1.7rem;
+    color: white;
+  }
+  nav{
+    position: absolute;
+   
+    top: 0;
+    bottom: 0;
+    margin-top: 150px;
+    height: 100%;
+    left:0;
+  padding: 10px;
+    background:white;
+    width:250px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    font-size: 20px;
+    text-decoration: none;
+    font-display: none;
+  }
+  img{
+    width: 20px;
+    height: 20px;
+    
+    
+  }
+ /* nav:hover{
+    
+    width: 300px;
+    transition: all 0.5s ease;
+    
+    
+  }*/
+  a{
+    text-decoration: none;
+  }
+fa{
+position: relative;
+width: 70px;
+height: 40px;
+top: 14px;
+font-size: 20px;
+text-align: center;
+}
+.navitem
+{
+position:relative;
+top: 12px;
+margin-left: 10px;
+
+}
+i{
+  padding-right: 30px;
+}
+li{
+  list-style: none;
+}
+h1{
+  color: white;
+  font-size: 20px;
+  
+  
+}
+.head
+{
+  background-color: blue;
+  height: 100px;
+}
+.head i{
+  font-size: 50px;
+}
+
+nav {
+  border: blue 3px solid;
+}

@@ -1,0 +1,103 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg " style="background-color: #0014FF;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-bus-front-fill"></i>
+      MP Travels
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav nav-fill w-100">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="javascript:void(0);" routerLink="/" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0);" routerLink="/search">Booking Ticket</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0);" routerLink="/ticket">View Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0);" routerLink="/login">Login/Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0);" routerLink="/">Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0);" routerLink="/">offers</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Click To Edit
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="javascript:void(0);" routerLink="/login">Edit Profile</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);" routerLink="/registration">Change Timings</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);" routerLink="/registerhp">Cancel Booking</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Book Box -->
+<div class="book-box">
+  <div class="card book-card border-primary mb-3" style="width: 18rem;">
+    <img [src]=pict2 class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MP TRAVELS</h5>
+      <p class="card-text">MP Travels offer you a wide range of buses to choose from.Book your bus tickets instantly and easily in online !!</p>
+      <a href="javascript:void(0);" routerLink="/search" class="btn btn-primary book-btn">Book Tickets</a>
+    </div>
+  </div>
+</div>
+
+<!-- Image -->
+<img [src]=pict3 alt="Bus" class="bushpimg">
+<br><br><br><br><br><br><br>
+
+<!-- Register -->
+<div class="container registerhp">
+  <h2>REGISTER</h2><br>
+  <h5>Cick here to regiter to our MP Travels. Registered accounts can avail offers and discounts !! Enjoy MP Travels !!</h5><br>
+  <button type="button" name="button" class="btn btn-primary book-btn regbtn">REGISTER</button>
+</div>
+
+<br><br>
+
+<!-- Instructions -->
+<div class="container inst">
+  <h1>INSTRUCTIONS</h1><br>
+  <ul>
+    <li><h5>Login or Register to create a MP Travels account</h5></li>
+    <li><h5>Click the Book Ticket button present inside a box in homepage.</h5></li>
+    <li><h5>Fill the registration form.</h5></li>
+    <li><h5>Confirm the details and submit the form.</h5></li>
+    <li><h5>A ticket will be generated for you . Have a copy of the ticket.</h5></li>
+    <li><h5>You can edit details by clicking Edit Option in navigation bar.</h5></li>
+    <li><h5>You can view your tickets from Ticket section.</h5></li>
+    <li><h5>Enjoy your travel !!</h5></li>
+    <li><h5>In case of difficulties, click Contact Us.</h5></li>
+  </ul>
+  <img [src]=pict1 alt="Instructions" class="instimage">
+</div>
+
+<br><br>
+
+<!-- Footer -->
+<div class="footer">
+<h2>CONTACT US</h2><br>
+<div class="dev">
+  <h3>DEVELOPERS</h3>
+  <h6>1. Pavithra</h6>
+  <h6>2. Pandimeena</h6>
+</div>
+<br>
+<h5>Contact Number : 12345 67890</h5>
+<h5>Mail id : mptravels@gmail.com</h5>
+</div>

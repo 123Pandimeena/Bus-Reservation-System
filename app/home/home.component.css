@@ -1,0 +1,103 @@
+.navbar-brand {
+    font-size: 1.7rem;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .homelink {
+    color: white;
+  }
+  
+  /* Body */
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .book-box {
+    position: absolute;
+    left: 4%;
+    top: 18%;
+  
+  }
+  
+  
+  .book-card {
+    border: blue 5px;
+    border-style: solid;
+  }
+  
+  .book-btn {
+    background-color: #0014FF;
+    color: white;
+    width: 250px;
+  }
+  
+  .registerhp {
+    border: black 2px solid;
+    padding: 3%;
+    border-radius: 50px;
+  }
+  
+  .regbtn {
+    width: 150px;
+  }
+  
+  .inst {
+    border: 2px black solid;
+    padding: 3%;
+    border-radius: 50px;
+    
+  }
+  
+  .instimage {
+    position: absolute;
+   top:1170px;
+    right: 10%;
+    width: 500px;
+    
+
+  }
+  
+  .footer {
+    background-color: #0014FF;
+    color: white;
+    text-align: center;
+    padding: 2%;
+  }
+  
+  .dev {
+    border: white 1px solid;
+    width: 30%;
+    margin : auto;
+    padding: 0.5%;
+  }
+  .bushpimg {
+  overflow: hidden;
+  }
+  @media (max-width:480px) {
+    .instimage {
+      visibility: hidden;
+    }
+  
+    .book-box {
+      z-index: 1;
+    }
+  
+    .bushpimg {
+      z-index: 0;
+    }
+  
+    .navbar {
+      z-index: 2;
+    }
+  
+    .dev {
+      width: 45%;
+    }
+  
+  
+  }
